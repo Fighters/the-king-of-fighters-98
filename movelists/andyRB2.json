@@ -1,0 +1,69 @@
+{
+  "names": {
+    "default": {
+      "roman": "Andy (RB2)"
+    },
+    "japan": {
+      "roman": "Andy (RB2)",
+      "original": "アンディ・ボガード (RB2)"
+    }
+  },
+  "images": {
+    "face": "andyRB2.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Gorin Kai",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Kakaekomi Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Agemen",
+        "input": ":df:+[A]"
+      },
+      {
+        "name": "Uwa Agito",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hishoken",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Shoryudan",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Zaneiken",
+        "input": ":db::f:+[A] {or} [C]"
+      },
+      {
+        "name": "Gadanko",
+        "input": ":qcf:+[A] {or} [C]",
+        "after": "Zaneiken"
+      },
+      {
+        "name": "Kuhadan",
+        "input": ":hcf:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Cho Reppadan",
+        "input": ":qcb::db::qcf::+[B] {or} [D]"
+      },
+      {
+        "name": "Dandadan",
+        "input": ":qcf::qcf::+[A] {or} [C] ({tap} [A] {or} [C] {repeatedly} {forMoreHits})"
+      }
+    ]
+  }
+}
