@@ -1,0 +1,84 @@
+{
+  "names": {
+    "default": {
+      "roman": "Clark"
+    },
+    "japan": {
+      "roman": "Clark",
+      "original": "クラーク・スティル"
+    }
+  },
+  "images": {
+    "face": "clark.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Nageppanashi German",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Fisherman Buster",
+        "input": "{close}, :b: {or} :f:+[D]"
+      },
+      {
+        "name": "Death Lake Driver",
+        "input": "{inAirAndClose}, :b: {or} :d: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Stomping",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Vulcan Punch",
+        "input": "{tap} [A] {or} [C] {repeatedly} ({use} :f: {toMove})"
+      },
+      {
+        "name": "Napalm Stretch",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Frankensteiner",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Super Arabian Burglary Backbreaker",
+        "input": ":hcf:+[A]"
+      },
+      {
+        "name": "Rolling Cradle",
+        "input": ":hcf:+[C]"
+      },
+      {
+        "name": "Super Argentine Backbreaker",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Flashing Elbow",
+        "input": "{afterClarkCommandThrows}, :qcf:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ultra Argentine Backbreaker",
+        "input": ":hcb::hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Running Three",
+        "input": ":hcf::hcf:+[B] {or} [D]"
+      }
+    ]
+  },
+  "custom_strings": {
+    "english": {
+      "afterClarkCommandThrows": "after Napalm Stretch, Rolling Cradle, Frankensteiner, Super Arabian Burglary Backbreaker {or} Super Argentine Backbreaker"
+    },
+    "portuguese": {
+      "afterClarkCommandThrows": "após Napalm Stretch, Rolling Cradle, Frankensteiner, Super Arabian Burglary Backbreaker {or} Super Argentine Backbreaker"
+    }
+  }
+}
