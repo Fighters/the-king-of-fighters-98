@@ -1,0 +1,64 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ryo ('94)"
+    },
+    "japan": {
+      "roman": "Ryo ('94)",
+      "original": "リョウ・サカザキ ('94)"
+    }
+  },
+  "images": {
+    "face": "ryo94.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Tani Otoshi",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Tomoe Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Hyochu Wari",
+        "input": ":f:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Ko-oken",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Kuchu Ko-oken",
+        "input": "{inAir}, :qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Koho",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Hien Shippukyaku",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Zanretsuken",
+        "input": ":f::b::f:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ryuko Ranbu",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Haoh Shokoken",
+        "input": ":f::hcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
