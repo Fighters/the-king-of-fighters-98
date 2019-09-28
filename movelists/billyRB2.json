@@ -1,0 +1,73 @@
+{
+  "names": {
+    "default": {
+      "roman": "Billy (RB2)"
+    },
+    "japan": {
+      "roman": "Billy (RB2)",
+      "original": "ビリー・カーン (RB2)"
+    }
+  },
+  "images": {
+    "face": "billyRB2.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Jigoku Otoshi",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Ippon Tsuri Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Dai Kaiten Geri",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Botakatobi Geri",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Senpukon",
+        "input": "{tap} [A] {repeatedly}"
+      },
+      {
+        "name": "Shuten Renpakon",
+        "input": "{tap} [C] {repeatedly}"
+      },
+      {
+        "name": "Sansetsukon Chudan Uchi",
+        "input": ":hcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Kaen Sansetsukon Chudan Uchi",
+        "input": ":qcf:+[A] {or} [C]",
+        "after": "Sansetsukon Chudan Uchi"
+      },
+      {
+        "name": "Kyoshu Hishokon",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Suzume Otoshi",
+        "input": ":qcb:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Cho Kaen Senpukon",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Salamander Stream",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
