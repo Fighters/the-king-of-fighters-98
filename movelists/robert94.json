@@ -1,0 +1,68 @@
+{
+  "names": {
+    "default": {
+      "roman": "Robert ('94)"
+    },
+    "japan": {
+      "roman": "Robert ('94)",
+      "original": "ロバート・ガルシア ('94)"
+    }
+  },
+  "images": {
+    "face": "robert94.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Ryuchokyaku",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Kubikiri Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Koryu Kokyaku Geri",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Ryuhanshu",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Ryugekiken",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Ryuga",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Hien Senpukyaku",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Geneikyaku",
+        "input": ":f::b::f:+[B] {or} [D]"
+      },
+      {
+        "name": "Hien Ryujinkyaku",
+        "input": "{inAir} :qcb:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ryuko Ranbu",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Haoh Shokoken",
+        "input": ":f::hcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
