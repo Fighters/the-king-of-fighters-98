@@ -1,0 +1,64 @@
+{
+  "names": {
+    "default": {
+      "roman": "Rugal"
+    },
+    "japan": {
+      "roman": "Rugal",
+      "original": "ルガール・バーンシュタイン"
+    }
+  },
+  "images": {
+    "face": "rugal.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Scorpion Death Lock",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Sceprion Blow",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Double Tomahawk",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Reppuken",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Kaiser Wave",
+        "input": ":f::hcf:+[A] {or} [C] ({hold} [A] {or} [C] {toCharge})"
+      },
+      {
+        "name": "Dark Barrier",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Genocide Cutter",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "God Press",
+        "input": ":hcb:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Gigantic Pressure",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Dead End Screamer",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      }
+    ]
+  }
+}
