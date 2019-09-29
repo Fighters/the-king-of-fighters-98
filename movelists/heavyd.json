@@ -1,0 +1,68 @@
+{
+  "names": {
+    "default": {
+      "roman": "Heavy D!"
+    },
+    "japan": {
+      "roman": "Heavy D!",
+      "original": "ヘビィ・D！"
+    }
+  },
+  "images": {
+    "face": "heavyD.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Stomach Buster",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Reverse Stomach Buster",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Rock Crush",
+        "input": ":f:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "R.S.D.",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Blast Upper",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Ducking Combination",
+        "input": ":qcb:+[A] {or} [C] ({upTo2x})"
+      },
+      {
+        "name": "Soul Flower",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Dancing Beat",
+        "input": "{close}, :dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Shadow",
+        "input": ":d::d:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "D. Crazy",
+        "input": ":qcb::db::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "D. Magnum",
+        "input": ":qcf::qcf:+[A] {or} [C] ({hold} [A] {or} [C] {toDelay})"
+      }
+    ]
+  }
+}
