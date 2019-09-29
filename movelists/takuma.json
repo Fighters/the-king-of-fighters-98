@@ -1,0 +1,72 @@
+{
+  "names": {
+    "default": {
+      "roman": "Takuma"
+    },
+    "japan": {
+      "roman": "Takuma",
+      "original": "タクマ・サカザキ"
+    }
+  },
+  "images": {
+    "face": "takuma.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Osotogari",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Ippon Seoi Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Kawarawari",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Oniguruma",
+        "input": ":f:+[B]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Ko-oken",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Zanretsuken",
+        "input": ":f::b::f:+[A] {or} [C]"
+      },
+      {
+        "name": "Hien Shippukyaku",
+        "input": "{charge} :db: :f:+[B] {or} [D]"
+      },
+      {
+        "name": "Shorankyaku",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Moko Buraigan",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Haoh Shikoken",
+        "input": ":f::hcf:+[A] {or} [C] ({hold} [A] {or} [C] {toCharge})"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Ryuko Ranbu",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Shin Kishingeki",
+        "input": "{close}, :qcf::qcf:+[A] {or} [C]"
+      }
+    ]
+  }
+}
