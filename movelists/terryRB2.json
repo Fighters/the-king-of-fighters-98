@@ -1,0 +1,64 @@
+{
+  "names": {
+    "default": {
+      "roman": "Terry (RB2)"
+    },
+    "japan": {
+      "roman": "Terry (RB2)",
+      "original": "テリー・ボガード (RB2)"
+    }
+  },
+  "images": {
+    "face": "terryRB2.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Grasping Upper",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Buster Throw",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Back Knuckle",
+        "input": ":f:+[A]"
+      },
+      {
+        "name": "Rising Upper",
+        "input": ":df:+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Power Wave",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Burn Knuckle",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Crack Shoot",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Fire Kick",
+        "input": ":hcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Rising Tackle",
+        "input": "{charge} :d: :u:+[A] {or} [C]"
+      }      
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Power Geyser",
+        "input": ":qcb::db::f:+[A] {or} [C]"
+      }
+    ]
+  }
+}
