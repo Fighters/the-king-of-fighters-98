@@ -1,0 +1,72 @@
+{
+  "names": {
+    "default": {
+      "roman": "Lucky"
+    },
+    "japan": {
+      "roman": "Lucky",
+      "original": "ラッキー・グローバー"
+    }
+  },
+  "images": {
+    "face": "lucky.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Dunk Buster",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Lucky Crush",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Lucky Kick",
+        "input": ":f:+[B]"
+      },
+      {
+        "name": "Dunk Drop",
+        "input": "{inAir}, :d:+[A]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Death Bound",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Death Dunk",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Death Shoot",
+        "input": ":d::d:+[A] {or} [B] {or} [C] {or} [D]"
+      },
+      {
+        "name": "Death Wheel",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Cyclone Break",
+        "input": ":qcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Lucky Vision",
+        "input": ":qcf:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMoves}": [
+      {
+        "name": "Hell Bound",
+        "input": ":qcf::qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Lucky Driver",
+        "input": ":qcf::qcf:+[B] {or} [D]"
+      }
+    ]
+  }
+}
