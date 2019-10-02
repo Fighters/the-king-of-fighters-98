@@ -50,7 +50,7 @@
         "input": ":hcf:+[A]"
       },
       {
-        "name": "Rolling Cradle",
+        "name": "Rolling Cradler",
         "input": ":hcf:+[C]"
       },
       {
@@ -75,10 +75,10 @@
   },
   "custom_strings": {
     "english": {
-      "afterClarkCommandThrows": "after Napalm Stretch, Rolling Cradle, Frankensteiner, Super Arabian Burglary Backbreaker {or} Super Argentine Backbreaker"
+      "afterClarkCommandThrows": "after Napalm Stretch, Rolling Cradler, Frankensteiner, Super Arabian Burglary Backbreaker {or} Super Argentine Backbreaker"
     },
     "portuguese": {
-      "afterClarkCommandThrows": "após Napalm Stretch, Rolling Cradle, Frankensteiner, Super Arabian Burglary Backbreaker {or} Super Argentine Backbreaker"
+      "afterClarkCommandThrows": "após Napalm Stretch, Rolling Cradler, Frankensteiner, Super Arabian Burglary Backbreaker {or} Super Argentine Backbreaker"
     }
   }
 }

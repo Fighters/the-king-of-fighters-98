@@ -24,11 +24,11 @@
     ],
     "{commandMoves}": [
       {
-        "name": "Kawarawari",
+        "name": "Oniguruma",
         "input": ":f:+[A]"
       },
       {
-        "name": "Oniguruma",
+        "name": "Kawarawari",
         "input": ":f:+[B]"
       }
     ],
