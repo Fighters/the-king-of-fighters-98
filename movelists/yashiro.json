@@ -46,7 +46,7 @@
         "input": ":hcf:+[A] {or} [C]"
       },
       {
-        "name": "Steel Jet Counter",
+        "name": "Jet Counter - Still",
         "input": ":qcf:+[A] {or} [C]",
         "after": "Jet Counter"
       },
